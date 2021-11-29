@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.scss";
 
-import Slider from "./slider";
-import Loader from "./loader";
-import Image from "./imageReveal";
-import Hero from "./hero";
+import Slider from "./components/slider";
+import Loader from "./components/loader";
+import Image from "./components/imageReveal";
+import Hero from "./components/hero";
+import Footer from "./components/footer";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <Slider />
       <Image />
       <Hero />
+      <Footer />
     </>
   );
 }

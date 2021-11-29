@@ -1,11 +1,11 @@
 import React, { useRef, useState, useEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import leftArrow from "./images/arrow-left.svg";
-import rightArrow from "./images/arrow-right.svg";
-import image1 from "./images/image.jpg";
-import image2 from "./images/image2.jpg";
-import image3 from "./images/image3.jpg";
+import leftArrow from "../images/arrow-left.svg";
+import rightArrow from "../images/arrow-right.svg";
+import image1 from "../images/image.jpg";
+import image2 from "../images/image2.jpg";
+import image3 from "../images/image3.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 

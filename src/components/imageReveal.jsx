@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import peopleImg from "./images/people.webp";
+import peopleImg from "../images/people.webp";
 import CSSRulePlugin from "gsap/CSSRulePlugin";
 import CSSPlugin from "gsap/CSSPlugin";
 import gsap from "gsap";

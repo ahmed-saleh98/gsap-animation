@@ -343,3 +343,24 @@ $secondary: #a09da6;
     }
   }
 }
+
+footer {
+  background: #2196f3;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  justify-content: space-between;
+  span {
+    color: #323330;
+    span {
+      color: #f0db4f;
+      font-size: 30px;
+    }
+  }
+  img {
+    width: 150px;
+    padding: 5px;
+  }
+}
